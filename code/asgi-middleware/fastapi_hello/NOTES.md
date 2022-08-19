@@ -1,0 +1,5 @@
+Example value of the `scope` variable:
+
+```
+{'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.3'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'client': ('127.0.0.1', 59036), 'scheme': 'http', 'root_path': '', 'headers': [(b'host', b'127.0.0.1:8000'), (b'user-agent', b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:99.0) Gecko/20100101 Firefox/99.0'), (b'accept', b'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'), (b'accept-language', b'en-US,en;q=0.5'), (b'accept-encoding', b'gzip, deflate, br'), (b'dnt', b'1'), (b'connection', b'keep-alive'), (b'upgrade-insecure-requests', b'1'), (b'sec-fetch-dest', b'document'), (b'sec-fetch-mode', b'navigate'), (b'sec-fetch-site', b'none'), (b'sec-fetch-user', b'?1'), (b'sec-gpc', b'1'), (b'cache-control', b'max-age=0')], 'method': 'GET', 'path': '/expensive', 'raw_path': b'/expensive', 'query_string': b'', 'app': <fastapi.applications.FastAPI object at 0x107097f10>}
+```
